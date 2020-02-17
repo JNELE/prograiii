@@ -8,16 +8,16 @@ public class Persona
     {
         Scanner leer = new Scanner(System.in);
         //Para leer cadenas
-//        System.out.println("Ingrese nombre");
-//        String miNombre = leer.nextLine();
-//        System.out.println("Ingrese apellido");
-//        String miApellido = leer.nextLine();
-//
-//        System.out.printf("Su nombre completo es: %s %s",miNombre,miApellido);System.out.println();
-//
-//        System.out.println("Ingrese su edad");
-//        int miEdad = leer.nextInt();
-//        System.out.printf("Su edad es: %d",miEdad);
+        System.out.println("Ingrese nombre");
+        String miNombre = leer.nextLine();
+        System.out.println("Ingrese apellido");
+        String miApellido = leer.nextLine();
+
+        System.out.printf("Su nombre completo es: %s %s",miNombre,miApellido);System.out.println();
+
+        System.out.println("Ingrese su edad");
+        int miEdad = leer.nextInt();
+        System.out.printf("Su edad es: %d",miEdad);
         //sumar las primeros 5 edades
         int sumaEdades=0;
         double promedio=0;
