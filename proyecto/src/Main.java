@@ -7,8 +7,12 @@ public class Main {
         ejercicios.compara("hola","mundo");
         ejercicios.serie2(10);
         //crear un while(){
-        // leerOption = 
+        // leerOption =
         // }
+
+
     }
 
 }
+
+
