@@ -6,9 +6,6 @@ public class Main {
         System.out.println("El area del rectagulo es: " + rectangulo.area());
         Circulo circulo = new Circulo(5);
         System.out.println("El area del circulo es: " + circulo.area());
-
-
-        
         Cuadrado cuadrado = new Cuadrado(5);
         System.out.println("El area del cuadrado es: " + cuadrado.area());
     }
