@@ -7,7 +7,7 @@ public class Persona
     public static void main(String[] args)
     {
         Scanner leer = new Scanner(System.in);
-        //Para leer cadenas
+//        //Para leer cadenas
 //        System.out.println("Ingrese nombre");
 //        String miNombre = leer.nextLine();
 //        System.out.println("Ingrese apellido");
@@ -34,8 +34,8 @@ public class Persona
 //
 //        System.out.println("Suma total de edades es: " + sumaEdades);
 //        System.out.println("El promedio es: " +(sumaEdades/cont) );
-
-
+//
+//
 //            int numero1=21;
 //
 //            if(numero1 % 2 ==0)
