@@ -11,6 +11,10 @@ public class Profesor extends Persona{
         this.ciudad = "";
         this.nroMaterias = 0;
     }
+
+    public String[] getMaterias() {
+        return this.Materias;
+    }
     public void Leer(){
         super.Leer();
         System.out.printf("CargaH: ");
@@ -39,6 +43,17 @@ public class Profesor extends Persona{
         for(int i=0; i<destinos.length; i++){
             if (this.ciudad.equals(destinos[i])){
                 respuesta = "Si trabajaron en esa ciudad";
+            }
+        }
+        return respuesta;
+    }
+
+    public String verificaMaterias(String[] Materias){
+        String respuesta = "No tienen la misma materia";
+
+        for(int i=0; i<Materias.length; i++){
+            if (this.Materias.equals(Materias[i].length())){
+                respuesta = "Si tienen la misma materia";
             }
         }
         return respuesta;
