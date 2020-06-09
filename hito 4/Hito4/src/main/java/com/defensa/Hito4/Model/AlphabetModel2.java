@@ -1,11 +1,11 @@
-package com.prograiii2020.swing.Model;
+package com.defensa.Hito4.Model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Alphabet")
-public class AlphabetModel {
-    @Id
+@Table(name = "Alphabet2")
+public class AlphabetModel2 {
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
 
@@ -15,11 +15,11 @@ public class AlphabetModel {
     @Column(name = "typer", length = 10, nullable = false)
     private String typer;
 
-    public AlphabetModel() {
+    public AlphabetModel2() {
 
     }
 
-    public AlphabetModel(String letter, String typer) {
+    public AlphabetModel2(String letter, String typer) {
         this.letter = letter;
         this.typer = typer;
     }

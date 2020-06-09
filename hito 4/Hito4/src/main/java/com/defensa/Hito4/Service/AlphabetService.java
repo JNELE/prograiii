@@ -1,12 +1,10 @@
-package com.prograiii2020.swing.Service;
+package com.defensa.Hito4.Service;
 
-import com.prograiii2020.swing.Model.AlphabetModel;
-import com.prograiii2020.swing.Model.ButtonModel;
-import com.prograiii2020.swing.Repository.AlphabetRepository;
+import com.defensa.Hito4.Model.AlphabetModel2;
+import com.defensa.Hito4.Repository.AlphabetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -20,24 +18,24 @@ public class AlphabetService implements AlphabetServiceInterface{
     @Override
     public void saveData() {
         if (alphabetRepository.count() == 0) {
-            alphabetRepository.save(new AlphabetModel(Q_P, "first"));
-            alphabetRepository.save(new AlphabetModel(A_L,"second"));
-            alphabetRepository.save(new AlphabetModel(Z_M,"three"));
+            alphabetRepository.save(new AlphabetModel2(Q_P, "first"));
+            alphabetRepository.save(new AlphabetModel2(A_L,"second"));
+            alphabetRepository.save(new AlphabetModel2(Z_M,"three"));
         }
     }
 
     @Override
-    public List<AlphabetModel> getAllLettersFirst() {
+    public List<AlphabetModel2> getAllLettersFirst() {
         return alphabetRepository.getFirstRow();
     }
 
     @Override
-    public List<AlphabetModel> getAllLettersSecond() {
+    public List<AlphabetModel2> getAllLettersSecond() {
         return alphabetRepository.getSecondRow();
     }
 
     @Override
-    public List<AlphabetModel> getAllLettersThree() {
+    public List<AlphabetModel2> getAllLettersThree() {
         return alphabetRepository.getThreeRow();
     }
 }
