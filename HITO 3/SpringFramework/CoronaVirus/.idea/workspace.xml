@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c872f015-7195-446e-9ba5-9495e5c362fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Gui/Frame/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Gui/Panels/AlphabetPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Gui/Panels/ButtonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Gui/Panels/EmptyPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Model/AlphabetModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Model/ButtonModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Repository/AlphabetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Repository/ButtonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Service/AlphabetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Service/AlphabetServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Service/ButtonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../hito 4/swing/src/main/java/com/prograiii2020/swing/Service/ButtonServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hito3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hito3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +25,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -47,10 +32,12 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../hito 5/Game" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.CoronaVirusApplication">
@@ -97,11 +84,14 @@
       <workItem from="1587174355794" duration="79000" />
       <workItem from="1587404546753" duration="414000" />
       <workItem from="1590969955906" duration="47000" />
+      <workItem from="1593139763948" duration="42000" />
+      <workItem from="1593139820699" duration="140000" />
+      <workItem from="1593145465383" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -117,10 +107,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587172732070" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1587174055695">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1593145590489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587174055695" />
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593145590489" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587173960034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
